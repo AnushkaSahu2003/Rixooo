@@ -1,0 +1,1141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+   width: 100%;
+   height: 100%;
+
+}
+#main{
+    /* overflow: hidden; */
+    width:100%;
+    height: 100vh;
+    background-color: beige;
+}
+#page1{
+    overflow: hidden;
+/* position: relative; */
+    width: 100%;
+   background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/TABLET_HERO_11.jpg?crop=center&height=550&v=1685523582&width=1024);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   /* margin-top: %; */
+    height: 100vh;
+  
+}
+#navbar{
+    width: 100%;
+    height: 14%;
+    display: inline-block;
+
+    background-color: beige;
+    position: fixed;
+}
+#navbartop{
+    text-align: center;
+    width: 100%;
+   height: 40%;
+
+   display: flex;
+   justify-content: space-between;
+}
+#navbarbott{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+#navbarbott a{
+    font-size: 18px;
+    font-family: gilroy; color: black;
+    text-transform: capitalize;
+
+}
+#nav1{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-items: flex-start;
+    /* margin-top: 0.5%; */
+    padding: 15px 40px;
+  
+}
+
+#nav3{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#rexo{
+    height: 10%;
+}
+#nav1 p{
+    font-family: gilroy;
+    font-size: 15px;
+    color: black;
+    font-weight: 100;
+}
+#nav2{
+    display: flex;
+   /* gap: 10px; */
+   justify-content: space-evenly;
+    /* margin-left: 10%; */
+    width: 15%;
+ align-items: center;
+    height: 100%;
+
+}
+#navbartop img{
+    height: 60%;
+    /* padding: 40px; */
+    margin-top: 1%;
+}
+    
+#nav2 i{
+    font-size: 25px;
+    color: black;
+}
+#nav2 i:nth-child(1):hover{
+
+    color: red;
+    transition: all ease 0.2s;
+}
+#nav2 i:nth-child(1)
+{
+    color: rgb(245, 155, 155);
+}
+#page1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#page1 h1{
+    font-size: 90px;
+    width: 160%;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -35%;
+    padding: 315px 450px;
+    font-weight: 100;
+    text-transform: capitalize;
+
+}
+#page4 h1{
+    font-size: 76px;
+    width: 160%;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -53%;
+    padding: 315px 450px;
+    font-weight: 100;
+    text-transform: capitalize;
+margin-left: -4%;
+}
+#page6 h1{
+    font-size: 76px;
+    width: 160%;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -43%;
+    padding: 315px 450px;
+    font-weight: 100;
+    text-transform: capitalize;
+margin-left: 4%;
+}
+
+#page1 button{
+    width: 10%;
+    height: 6%;
+    background-color: white;
+ margin-top:28% ;
+
+   margin-left: 45%;
+    font-size: 15px;
+    color: black;
+    border: 1px solid white;
+    font-family: gilroy thin;
+    text-transform: uppercase;
+    text-align: center;
+}
+#page4 button{
+    width: 10%;
+    height: 6%;
+    background-color: white;
+ top:-43% ;
+ position: relative;
+
+   margin-left: 45%;
+    font-size: 15px;
+    color: black;
+    border: 1px solid white;
+    font-family: gilroy thin;
+    text-transform: uppercase;
+    text-align: center;
+}
+#page6 button{
+    width: 10%;
+    height: 6%;
+    background-color: white;
+ top:-58% ;
+ position: relative;
+
+   margin-left: 45%;
+    font-size: 15px;
+    color: black;
+    border: 1px solid white;
+    font-family: gilroy thin;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+#page1 button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: all ease 0.5s;
+}
+#page4 button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: all ease 0.5s;
+}
+#page6 button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: all ease 0.5s;
+}
+#page2
+{
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    justify-content: center;
+    overflow: hidden;
+
+    align-items: center;
+    background-color: beige;
+}
+#part1{
+    width: 100%;
+    height: 20%;
+    background-color: beige;}
+#part3{
+    /* gap: 390px; */
+    display: flex;
+    justify-content: space-around;
+       width: 100%;
+    height: 20%;}
+    #part2{
+        display: flex;
+        justify-content: space-evenly;
+      width: 100%;
+      height: 70%;
+      /* background-color: black; */
+    }
+#part1{
+    text-align: center;
+    font-size: 22px;
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 40px;
+text-transform: capitalize;
+}
+#part2 img{
+    height: 90%;
+    margin-top: 2%;
+    
+}
+.box h2{
+    width: 125%;
+   opacity: .7;
+    font-size: 20px;
+    padding-top: 25px;
+    /* width: 10%; */
+ color: black;
+    font-family: gilroy thin;
+    text-transform: uppercase;
+}
+
+.box h2:hover {
+    opacity: 5;
+    cursor:pointer;
+ margin-left: 20%;
+ font-size: 20px;
+ transition:  0.4s ease-in-out;
+
+color: black
+};
+
+.box{
+    width: 10%;
+    height: 55%;
+  
+    text-align: center;
+}
+.box i{
+    font-size: 25px;
+    padding-top: 65px;
+}
+.box img{
+    opacity: 5;
+    height: 10%;
+  
+}
+#page3{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    background-color: beige;
+
+    /* background-color: aquamarine; */
+}
+.box:hover img{
+    transition: all ease-in-out 0.4s;
+    transform: scale(160%);
+}
+#page3part1{
+    width: 60%;
+    display: inline-block;
+    height: 100%;
+    margin-top:-1%;
+    background-color: beige;
+    /* background-color: rgb(202, 36, 36); */
+}
+#page3part2{
+    margin-top: -1%;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    /* background-color: black; */
+}
+#page3part1 img{
+    width: 98%;
+    object-fit: cover;
+    object-position: top;
+
+    height: 80%;
+    
+}
+#page3part1 h1{
+font-size: 55px;
+color:rgb(2, 34, 2);
+font-weight: 100;
+margin-left: 10%;
+margin-top: 1%;
+font-family: 'Dancing Script', cursive;
+
+}
+#page3part1 p{
+font-size: 14px;
+margin-top: 1%;
+color:rgb(2, 34, 2);
+font-weight: 100;
+margin-left: 10%;
+font-family: gilroy;
+
+}
+
+ #arrow {
+    width: 23%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 11.5%;
+    /* background-color: rgb(153, 139, 139); */
+    margin-top: 2%;
+    /* text-align: center; */
+}
+#arrow h2{
+    font-family:sf pro display;
+    text-transform: uppercase;
+    color: rgb(2, 34, 2);
+    font-weight: 100;
+    margin-left: -14%;
+    font-size: 15px;
+    /* padding: 2px 1px; */
+}
+#arrow img{
+    height:30%;
+/* margin-top: -45%; */
+    object-fit: cover;
+/* margin-left: 63%; */
+    width: 18%;
+}
+#arrow:hover img{
+/* position: absolute; */
+/* left: 50%; */
+margin-left: 20%;
+    transition: all ease-in-out 0.6s;
+    transform: scale(120%);
+}
+#part21{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 75%;
+    /* background-color: aqua; */
+}
+#part22{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 75%;
+    margin-top: -38%;
+    /* background-color: rgb(188, 190, 24); */
+}
+.part211{
+    width: 50%;
+    height: 60%;
+    /* background-color: aqua; */
+    display: inline-block;
+}
+.part212{
+    width: 50%;
+    height: 60%;
+    margin-top: -7%;
+    /* background-color: aqua; */
+    display: inline-block;
+}
+.elem{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/MAY-ECOM---19th-Paige136488.jpg?v=1682354999&width=330);
+    /* position: relative; */
+ height: 90%;
+ background-size: cover;
+ background-position: center;
+ width: 95%;
+    border-radius: 5px;
+    background-color: #787777;
+    overflow: hidden;
+    display: inline-block; 
+  
+}
+.elem5{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/2SANDRINE_POPPYJACQUARD_05.jpg?v=1681982265&width=330);
+    /* position: relative; */
+ height: 90%;
+ background-size: cover;
+ background-position: center;
+ width: 100%;
+    border-radius: 5px;
+    background-color: #787777;
+    overflow: hidden;
+    display: inline-block; 
+  
+}
+.elem7{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/1SELENE_TRIACETATE_04.jpg?v=1681916402&width=330);
+    /* position: relative; */
+ height: 90%;
+ background-size: cover;
+ background-position: center;
+ width: 100%;
+    border-radius: 5px;
+    background-color: #787777;
+    overflow: hidden;
+    display: inline-block; 
+  
+}
+.elem8{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/1MYA_TRIACETATE_01_f3bc4ff0-9218-4980-a5b3-e20f22df997b.jpg?v=1681917886&width=330);
+    /* position: relative; */
+ height: 90%;
+ background-size: cover;
+ background-position: center;
+ width: 100%;
+    border-radius: 5px;
+    background-color: #787777;
+    overflow: hidden;
+    display: inline-block; 
+  
+}
+.elem6{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/000076750031.jpg?v=1681996891&width=330);
+    /* position: relative; */
+ height: 90%;
+ background-size: cover;
+ background-position: center;
+ width: 100%;
+    border-radius: 5px;
+    background-color: #787777;
+    overflow: hidden;
+    display: inline-block; 
+  
+}
+.elem2{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/000085700024.jpg?v=1684857809&width=330);
+    /* position: relative; */
+ height: 90%;
+ background-size: cover;
+ background-position: center;
+ width: 95%;
+    border-radius: 5px;
+    background-color: #787777;
+    overflow: hidden;
+    display: inline-block; 
+  
+}
+.elem3{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/DSC_2584.jpg?v=1684481249&width=300);
+    /* position: relative; */
+ height: 90%;
+ background-size: cover;
+ background-position: center;
+ width: 95%;
+    border-radius: 5px;
+    background-color: #787777;
+    overflow: hidden;
+    display: inline-block; 
+  
+}
+.elem4{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/DSC_1175.jpg?v=1684250848&width=300);
+    /* position: relative; */
+ height: 90%;
+ background-size: cover;
+ background-position: center;
+ width: 95%;
+    border-radius: 5px;
+    background-color: #787777;
+    overflow: hidden;
+    display: inline-block; 
+  
+}
+
+
+
+.elem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.elem3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.elem4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.elem #center{
+    bottom: -20%;
+    height: 90%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    transition: all ease 0.5s;
+    background:rgba(255, 255, 255, 0.555);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-left: 0%;
+    text-align: center;
+    /* position: absolute; */
+
+   
+}
+
+.elem2 #center{
+    bottom: -20%;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    transition: all ease 0.5s;
+    background:rgba(255, 255, 255, 0.555);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-left: 0%;
+    text-align: center;
+    /* position: absolute; */
+
+   
+}
+.elem3 #center{
+    bottom: -20%;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    transition: all ease 0.5s;
+    background:rgba(255, 255, 255, 0.555);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-left: 0%;
+    text-align: center;
+    /* position: absolute; */
+
+   
+}
+.elem4 #center{
+    bottom: -20%;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    transition: all ease 0.5s;
+    background:rgba(255, 255, 255, 0.555);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-left: 0%;
+    text-align: center;
+    /* position: absolute; */
+
+   
+}
+
+.elem #center h6 {
+    color: black;       
+    margin-top: 0%;                             
+    font-size: 17px;
+    font-family: gilroy thin;
+}
+.elem #center h5{
+    font-size: 12px;
+    color: black;
+    font-family: gilroy;
+
+}
+
+.elem3 #center h6 {
+    color: black;       
+    margin-top: 0%;                             
+    font-size: 17px;
+    font-family: gilroy thin;
+}
+.elem3 #center h5{
+    font-size: 12px;
+    color: black;
+    font-family: gilroy;
+
+}
+.elem2 #center h6 {
+    color: black;       
+    margin-top: 0%;                             
+    font-size: 17px;
+    font-family: gilroy thin;
+}
+.elem2 #center h5{
+    font-size: 12px;
+    color: black;
+    font-family: gilroy;
+
+}
+.elem4 #center h6 {
+    color: black;       
+    margin-top: 0%;                             
+    font-size: 17px;
+    font-family: gilroy thin;
+}
+.elem4 #center h5{
+    font-size: 12px;
+    color: black;
+    font-family: gilroy;
+
+}
+
+.elem:hover #blue{
+    opacity: .1;
+}
+
+.elem2:hover #blue{
+    opacity: .1;
+}
+.elem3:hover #blue{
+    opacity: .1;
+}
+.elem4:hover #blue{
+    opacity: .1;
+}
+
+
+.elem:hover{
+    transition: all ease 0.4s;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/1AUBRIE_BLACK_01.jpg?v=1682350825&width=330);
+}
+.elem5:hover{
+    transition: all ease 0.4s;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/3SANDRINE_POPPYJACQUARD_07.jpg?v=1681982218&width=330);
+}
+.elem6:hover{
+    transition: all ease 0.4s;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/4RONAN_07.jpg?v=1681996891&width=330);
+}
+.elem7:hover{
+    transition: all ease 0.4s;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/SELENE-ECOMUPLOAD.jpg?v=1681916402&width=330);
+}
+.elem8:hover{
+    transition: all ease 0.4s;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/3MYA_TRIACETATE_05.jpg?v=1681917886&width=330);
+}
+.elem2:hover{
+    transition: all ease 0.4s;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/MAYECOM-19thPaige137011.jpg?v=1684857682&width=330);
+}
+.elem3:hover{
+    transition: all ease 0.4s;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/MAYECOM-19thPaige138380_1.jpg?v=1684481228&width=300);
+}
+.elem4:hover{
+    transition: all ease 0.4s;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/MAYECOM-19thPaige136420_1.jpg?v=1684768225&width=300);
+}
+.elem:hover #center{
+margin-top: -100%;
+/* position: absolute; */
+ 
+}
+
+.elem2:hover #center{
+margin-top: -100%;
+  
+}
+.elem3:hover #center{
+margin-top: -100%;
+/* position: absolute; */
+ 
+}
+.elem4:hover #center{
+margin-top: -100%;
+  
+}
+.elem2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.elem2 #center h5:nth-child(3){
+text-decoration: none;
+
+}
+
+#center i {
+    color: red;
+    font-size: 25px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.elem:hover #center{
+    bottom: 20%;
+  
+}
+
+.elem2:hover #center{
+    bottom: 20%;
+  
+}
+.elem3:hover #center{
+    bottom: 20%;
+  
+}
+
+.elem4:hover #center{
+    bottom:20%;
+  
+}
+
+#blue{
+    width: 65%;
+    height: 9%;
+align-items: center;
+    background-color: rgb(63, 63, 124);
+    margin-top: 130%;
+}
+#blue p{
+padding:6px 10px;
+    color: white;
+    font-family: gilroy;
+    font-size: 20px;
+    width: 900%;
+    text-transform: capitalize;
+
+}
+
+
+.part211 h2{
+font-family: gilroy thin;
+font-size: 18px;
+text-transform: capitalize;
+
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -75%;
+margin-top: -1%;
+
+}
+.part211 h3{
+font-family: gilroy thin;
+font-size: 15px;
+text-transform: capitalize;
+
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -53%;
+margin-top:2%;
+
+}
+.part211 h4{
+font-family: gilroy thin;
+font-size: 15px;
+text-transform: capitalize;
+
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -80%;
+margin-top: 2%;
+
+}
+.page52 p{
+font-family: gilroy thin;
+font-size: 18px;
+text-transform: capitalize;
+color: black;
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -65%;
+margin-top: -1%;
+
+}
+.page52 h3{
+font-family: gilroy thin;
+font-size: 15px;
+text-transform: capitalize;
+
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -53%;
+margin-top:2%;
+
+}
+.page52 h4{
+font-family: gilroy thin;
+font-size: 15px;
+text-transform: capitalize;
+
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -80%;
+margin-top: 2%;
+
+}
+.part212 h2{
+font-family: gilroy thin;
+font-size: 18px;
+text-transform: capitalize;
+
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -75%;
+margin-top: -1%;
+
+}
+.part212 h3{
+font-family: gilroy thin;
+font-size: 15px;
+text-transform: capitalize;
+
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -53%;
+margin-top:2%;
+
+}
+.part212 h4{
+font-family: gilroy thin;
+font-size: 15px;
+text-transform: capitalize;
+
+text-align: center;
+/* padding: 10 10px; */
+margin-left: -80%;
+margin-top: 2%;
+
+}
+#page4{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    /* margin-top:5%; */
+  
+    overflow: hidden;
+}
+#page5{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+#page5 h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: brown;
+    text-transform: capitalize;
+    padding: 10px 50px;
+    font-weight: 100;
+}
+#page5 h2{
+    font-family: gilroy thin;
+    text-transform: uppercase;
+    color: brown;
+    padding:-16px -20px;
+    font-size: 18px;
+    text-align: center;
+}
+#page51{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90%;
+    background-color: beige;
+}
+.page52{
+width: 24%;
+height: 90%;
+margin-top: 0%;
+/* background-color: rgb(163, 206, 8); */
+display: inline-block;}
+#page6{
+    border-bottom: 4px solid rgb(253, 127, 148);
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-color: aqua;
+    margin-top: 5%;
+}
+#page7{
+    width: 100%;
+    border-bottom: 4px solid rgb(250, 125, 146);
+    height: 120vh;
+    background-color:beige;
+}
+#page7 h1{
+    font-family: gilroy thin;
+    color: brown;
+    font-size: 17px;
+    width: 120%;
+    overflow: hidden;
+    padding: 0px 600px;
+}
+#page7 p{
+ font-family: 'Dancing Script', cursive;
+font-size: 34px;
+text-align: center;
+
+color: brown;
+width: 60%;
+margin-top: 3%;
+margin-left: 23%;
+}
+#page7 img{
+    height: 25%;
+    margin-left: 85%;
+    margin-top: 4%;
+}
+#secondimg img{
+    height: 5%;
+    object-fit: cover;
+    margin-top: -8%;
+    margin-left: -1%;
+    width: 20%;
+}
+#page8{
+    border-bottom: 4px solid rgb(1, 43, 1);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: beige;
+    width: 100%;
+    height: 110vh;
+    /* background-color:rgb(204, 230, 41); */
+}
+#page8 h1{
+    font-size: 60px;
+    color: rgb(1, 43, 1);
+ font-family: 'Dancing Script', cursive;
+margin-left: 3%;
+padding: 40px 0px;
+}
+#page8 h2{
+    font-size: 30px;
+    color:rgb(1, 43, 1);
+ font-family: 'Dancing Script', cursive;
+margin-left: 84%;
+margin-top: -8%;
+
+}
+#page81{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  
+    margin-top: 3%;
+    /* background-color: aqua; */
+}
+#page811{
+width: 40%;
+margin-top: 2%;
+height: 70%;
+/* background-color: black; */
+}
+#page812{
+width: 50%;
+height: 80%;
+margin-top: 2%;
+/* background-color: black; */
+}
+#page811 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: top;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+}
+.elemm {
+    width: 45%;
+    height: 45%;
+    background-color: blue;
+}
+.container:hover > .elemm:not(:hover) {
+    filter: blur(4px);
+  }
+  .elemm img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  #page9{
+    width: 100%;
+    height: 90vh;
+    background-color: beige;
+  }
+ #brown{
+    width: 100%;
+    height: 50%;
+    margin-top: -5%;
+    background-image: url(brown.svg);
+    background-size: cover;
+    background-position: left;
+
+    /* background-color: aquamarine; */
+ }
+  #upper{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    background-color: beige;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #upper h1{
+    color: brown;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: gilroy thin;
+  }
+  #upper i{
+    color: brown;
+    font-weight: 100;
+    font-size: 45px;
+  }
+  #brown h2{
+  
+    font-style: italic;
+    color: white;
+ font-family: 'Dancing Script', cursive;
+font-weight: 100;
+    font-size: 32px;
+    padding: 90px 50px;
+
+  }
+  #brown img{
+    width: 18%;
+    height: 60%;
+    margin-top: -11.5%;
+    margin-left: 55%;
+  }
+  #brown h3
+  {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 100;
+ font-family: 'Dancing Script', cursive;
+  color: white;
+  margin-left: 75%;
+  margin-top: -10%;
+  }
+  #brown p
+  {
+    font-size: 20px;
+    font-weight: 100;
+ font-family: 'Dancing Script', cursive;
+  color: white;
+  margin-left: 77%;
+  margin-top: 0.5%;
+  }
+  #brown h4{
+    font-family: gilroy thin;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 0.5%;
+    width: 8%;
+    color: white;
+    margin-left: 79%;
+    font-weight: 100;
+    border-bottom: 2px solid white;
+  }
+  #page9 h5{
+font-family:monument;
+font-size: 160px;
+font-weight: 900;
+color: #A8472F;;
+margin-left: 20%;
+letter-spacing: 100px;
+  }
